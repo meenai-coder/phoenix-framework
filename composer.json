@@ -1,0 +1,15 @@
+{
+  "name": "phoenix/framework",
+  "description": "Phoenix v11 - Complete Multi-Chain AI Framework",
+  "require": {
+    "php": "^8.2",
+    "predis/predis": "^2.2",
+    "firebase/php-jwt": "^6.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phoenix\\": "src/"
+    },
+    "files": ["src/Support/helpers.php"]
+  }
+}
